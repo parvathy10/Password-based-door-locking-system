@@ -1,0 +1,44 @@
+ABSTRACT
+
+In the current global context, security concerns have become paramount, affecting individuals and organizations alike. Traditional security measures often rely on mechanical locks, typically operated by specific keys. However, the limitations of mechanical locks, such as the need for multiple locks to secure large areas and vulnerability to forced entry, have led to increased security challenges. In response to these challenges, electronic-based locking systems have emerged as a viable alternative.
+The objective of this project is to create a door security system that relies on a password for authentication. The system utilizes a keypad for the input of a 4-digit password, offering an electronic solution to enhance security and access control.
+
+COMPONENTS REQUIRED
+
+LPC2138 Development Board
+LCD Module
+4*3 Keypad
+DC motor
+L293D Motor
+
+SOFTWARE REQUIRED
+
+Keil IDE-4
+Proteus-8
+
+
+PIN CONFIGURATION
+
+LM016L (LCD)
+
+RS – P0.2
+RW – GND
+EN – P0.3
+Data lines – P0.4 to P0.7 (4 Bit Mode)
+
+L293D (Motor Driver):
+
+Input 1 – Port 0.16
+Input 2 – Port 0.17
+Enable 1 – P0.18
+
+
+Keypad:
+
+R1 – P1.16
+R2 – P1.17
+R3 – P1.18
+R4 – P1.19
+C1 – P1.20
+C2 – P1.21
+C3 – P1.22
